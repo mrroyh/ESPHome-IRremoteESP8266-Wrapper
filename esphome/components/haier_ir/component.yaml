@@ -1,0 +1,14 @@
+name: Haier IR Climate (IRremoteESP8266)
+url: https://github.com/mrroyh/ESPHome-IRremoteESP8266-Wrapper#main
+maintainers:
+  - mrroyh
+versions:
+  - esphome>=2024.6.0
+files:
+  includes:
+    - haier_ir.h
+    - haier_ir.cpp
+platformio_options:
+  lib_deps:
+    - crankyoldgit/IRremoteESP8266@^2.8.6
+license: MIT
